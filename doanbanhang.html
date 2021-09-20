@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dabh.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="animate.css-main/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="wraper">
+            <div class="header-content">
+                <div class="header-logo">
+                    <p class="header-p">
+                        computer
+                    </p>
+                </div>
+                <div class="header-nav">
+                    <ul>
+                        <li class="menu-li">
+                            <a href="#" class="menu-a">
+                                giới thiệu
+                            </a>
+                        </li>
+                        <li class="menu-li">
+                            <a href="#" class="menu-a">
+                               trang chủ
+                            </a>
+                        </li>
+                        <li class="menu-li">
+                            <a href="#" class="menu-a">
+                               danh mục
+                            </a>
+                        </li>
+                        <li class="menu-li">
+                            <a href="#" class="menu-a">
+                                tin tức
+                            </a>
+                        </li>
+                        <li class="menu-li">
+                            <a href="#" class="menu-a">
+                               bảo hành
+                            </a>
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="header-auth">
+                    
+                        <a href="#" class="button button-dk">
+                           Đăng ký
+                        </a>
+                    
+                        <a href="#" class="button button-dn">
+                           Đăng nhập
+                        </a>
+                    
+                </div>
+            </div>
+        </div>
+     
+
+    </header>
+    <section class="slider owl-carousel owl-theme">
+        <div class="silder-item silder-item-one">
+           <div class="wraper">
+                <div class="slider-item-text">
+                    <p class="animate__animated animate__backInRight animate__repeat-1	 animate__slower tiede">asus gaming</p>
+                    <p class="animate__animated animate__bounceInDown animate__repeat-1	 animate__slower chitiet">công nghệ</p>
+                    <p class="animate__animated animate__bounceInDown animate__repeat-1	 animate__slower chitiet">tản nhiệt</p>
+                    <p><button class="btn">
+                        Xem chi tiết
+                    </button></p>
+                </div>
+            </div>
+        </div>
+        <div class="silder-item silder-item-two">
+            <div class="wraper">
+                <div class="slider-item-text">
+                    <p class=" tiede">rog strix scar 15</p>
+                    <p class="chitiet">thiết kế</p>
+                    <p class="chitiet">sang trọng</p>
+                    <p><button class="btn">
+                        Xem chi tiết
+                    </button></p>
+                </div>
+            </div>
+        </div>
+        <div class="silder-item silder-item-three">
+            <div class="wraper">
+                <div class="slider-item-text">
+                    <p class="tiede">predator triton 500</p>
+                    <p class="chitiet">hầm hố </p>
+                    <p class="chitiet">mạnh mẽ</p>
+                    <p><button class="btn">
+                        Xem chi tiết
+                    </button></p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <nav>
+        <div class="nav-item nav-image-one ">
+
+        </div>
+        <div class="nav-item nav-image-two">
+
+        </div>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+  autoplayTimeout:5000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+    </script>
+</body>
+</html>

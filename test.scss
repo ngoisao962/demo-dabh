@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+.tent{
+    background: rgb(202, 196, 196);
+    
+    text-align: center;
+}
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 5px;
+}
+.tent:last-child{
+    grid-row: 1/2;
+}
